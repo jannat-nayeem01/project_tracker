@@ -1,9 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  studentid: MyString
-  name: MyString
+  id: 1
+  studentid: '111'
+  name: 'Jannatun'
 
 two:
-  studentid: MyString
-  name: MyString
+  id: 2
+  studentid: '222'
+  name: 'Nayeem'

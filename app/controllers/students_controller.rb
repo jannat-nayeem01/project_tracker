@@ -1,6 +1,7 @@
 class StudentsController < ApplicationController
   before_action :set_student, only: %i[ show edit update destroy ]
   before_action :set_project, only: [:create] 
+  before_action :authenticate_user!, :except => [:index, :show]
 
 
   # GET /students or /students.json

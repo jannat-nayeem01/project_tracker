@@ -1,9 +1,12 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  url: MyString
+  id: 1
+  name: 'Soi Cats and Dogs'
+  url: 'www.soicats.com'
+two: 
+  id: 2 
+  name: 'Sri Lankan Food Lovers'
+  url: 'www.foodlovers.com'
 
-two:
-  name: MyString
-  url: MyString
+
