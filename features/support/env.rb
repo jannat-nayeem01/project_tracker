@@ -5,6 +5,13 @@
 # files.
 
 require 'cucumber/rails'
+require 'factory_bot'
+FactoryBot.find_definitions
+
+require 'capybara/cucumber'
+require 'rspec/expectations'
+World(RSpec::Matchers)
+
 
 # frozen_string_literal: true
 
